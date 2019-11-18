@@ -1,0 +1,18 @@
+    <div class="container">
+
+      <div class="center">
+        
+        <h1>Stupid Coach</h1>
+        <h2>you said <%= @answer %></h2>
+        <p>stupid coach says</p>
+        <% if @answer == @answer.upcase%>
+        <p>i like your determination </p>
+        <% end %>
+
+        <p><%= @coach_says %></p>
+
+        <a href="/ask">ask again</a>
+        
+      </div>
+      
+    </div>
